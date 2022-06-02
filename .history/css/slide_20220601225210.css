@@ -1,0 +1,16 @@
+.slider{
+    height: 100vh;
+    background-color: black;
+}
+
+.carousel{
+    position: absolute;
+    z-index: 100;
+    top: -15px;
+}
+
+.carousel-item>img{
+    height: 30px;
+    width: auto;
+    object-fit: cover;
+}

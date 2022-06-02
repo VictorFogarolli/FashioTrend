@@ -1,0 +1,25 @@
+@import url('/css/colors.css');
+
+.slider {
+  height: 150px;
+  background-color: inherit;
+}
+
+.carousel {
+  position: relative;
+  bottom: 150px;
+  height: 300px;
+  width: 450px;
+  margin: auto;
+}
+
+.carousel-item > img {
+  object-fit: contain;
+}
+
+.carousel-caption{
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: white;
+    font-size: large;
+}

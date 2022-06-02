@@ -1,0 +1,11 @@
+@import url('/css/colors.css');
+
+section.busca_container{
+    box-sizing: border-box;
+    height: 300px;
+    background-color: var(--cabecalho);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}

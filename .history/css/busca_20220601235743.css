@@ -1,0 +1,6 @@
+@import url('/css/colors.css');
+
+section.busca_container{
+    background-color: var(--cabecalho);
+    padding: 10px  inherit;
+}

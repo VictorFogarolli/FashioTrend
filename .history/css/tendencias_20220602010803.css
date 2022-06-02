@@ -1,0 +1,53 @@
+@import url(colors.css);
+/*Estilização Parte II*/
+
+.services {
+    height: 100%;
+    width: auto;
+    font-family: serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.title_services {
+    text-align: center;
+    margin-bottom: 10px 0;
+}
+
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+.card {
+    height: fit-content;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: var(--fundotendencias);
+    padding: 10px;
+    text-align: center;
+    border: 2px solid var(--fundotendencias);
+    box-shadow: 0  5px 5px var(--sombra);
+}
+
+.icon_container{
+   height: 100px;
+   width: auto;
+   display: flex;
+   justify-content: center;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color: var(--body);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

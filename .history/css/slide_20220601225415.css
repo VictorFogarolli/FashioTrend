@@ -1,0 +1,12 @@
+.slider{
+    height: 100vh;
+    background-color: black;
+}
+
+.carousel{
+   height: 500px;
+}
+
+.carousel-item>img{
+    object-fit: contain;
+}

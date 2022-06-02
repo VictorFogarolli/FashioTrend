@@ -1,0 +1,20 @@
+@import url('/css/colors.css');
+
+section.testimonial h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+article.testimonial_item{
+    display: inline-block;
+}
+
+article.testimonial_item>figure{
+    width: 300px;
+}
+
+article.testimonial_item img{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}

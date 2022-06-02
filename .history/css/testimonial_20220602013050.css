@@ -1,0 +1,40 @@
+@import url('/css/colors.css');
+
+section.testimonial{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+section.testimonial h1{
+    color: inherit;
+    text-align: center;
+}
+
+section.testimonial_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+article.testimonial_item>figure{
+    background-color: inherit;
+    width: 300px;
+    box-shadow: 0  5px 5px 0 var(--sombra);
+}
+
+article.testimonial_item img{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+article.testimonial_item figcaption{
+    text-align: center;
+    padding: 15px 5px;
+}
+
+article.testimonial_item figcaption>strong{
+    margin: 10px;
+    display: block;
+    font-weight: bold;
+    text-transform: capitalize;
+}

@@ -1,0 +1,30 @@
+@import url('/css/colors.css');
+
+.slider {
+  height: 150px;
+  background-color: inherit;
+}
+
+.carousel {
+  position: relative;
+  bottom: 150px;
+  height: 300px;
+  width: 450px;
+  margin: auto;
+}
+
+.carousel-item > img {
+  object-fit: contain;
+}
+
+.carousel-caption{
+    color: var(--body);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-caption>.button_ver{
+    background-color: var(--cabecalho);
+    color: var(--body);
+    padding: 2px 10%;
+    line-height: 30px;
+}

@@ -1,0 +1,9 @@
+.slider{
+    height: 100vh;
+    background-color: black;
+}
+
+.carousel{
+    height: 30%;
+    width: 30vh;
+}

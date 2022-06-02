@@ -1,0 +1,6 @@
+@import url('/css/colors.css');
+
+section.testimonial h1{
+    text-align: center;
+    margin: 10px 0;
+}

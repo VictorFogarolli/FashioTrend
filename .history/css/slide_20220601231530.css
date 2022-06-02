@@ -1,0 +1,16 @@
+.slider {
+  height: 150px;
+  background-color: black;
+}
+
+.carousel {
+  position: relative;
+  bottom: 150px;
+  left: 35%;
+  height: 300px;
+  width: 450px;
+}
+
+.carousel-item > img {
+  object-fit: contain;
+}
