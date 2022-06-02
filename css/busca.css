@@ -1,0 +1,37 @@
+@import url('/css/colors.css');
+
+section.busca_container{
+    height: 150px;
+    background-color: var(--cabecalho);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.formulario_de_busca label{
+    color: #fff; 
+}
+.formulario_de_busca input{
+    height: 30px;
+    border-radius: 8px;
+
+}
+
+.formulario_de_busca input[type="submit"]{
+    width: 80px;
+    color: #fff;
+    background-color: var(--cabecalho);
+    border: 1px solid #fff;
+}
+
+.formulario_de_busca input[type="submit"]:hover{
+    background-color: var(--pesquisa);
+}
+
+.formulario_de_busca input[type="text"]{
+    width: 30vw;
+}

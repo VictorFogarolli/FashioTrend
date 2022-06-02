@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bangers&family=PT+Serif:ital,wght@1,700&family=Quicksand:wght@300;600&display=swap');
+
 .rodape{
     text-align: center;
     font-size: 12px;
     padding: 24px  5%;
-    background-color: var(--pesquise);
+    background-color: var(--cabecalho);
 }
 
 .rodape_logo{
-        width: 180px;
+    width: 180px;
     margin-bottom: 16px;
 }
 
 .rodape_infos-empresa{
     line-height: 1.75;
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
 }
 .rodape-titulo{
     font-size: 17px;
@@ -21,17 +29,16 @@
 }
 
 .rodape_item-lista{
-    font-weight: 500;
+    font-size: 15px;
     margin: 10px 0;
     text-align: center;
-}
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'PT Serif', serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
 
-@media(max-width: 640px){
-    .rodape_secao{
-        margin-top: 24px;
-    }
 }
-
 @media(min-width: 640px) and (max-width: 1200px){
     .rodape{
         display: flex;
@@ -41,15 +48,9 @@
     }
 
     .rodape_socao-sobre,
-    .rodape_secao-cursos,
     .rodape_secao-links,
     .rodape_secao-newsletter{
-        width: 45%;
-    }
-
-    .rodape_secao-cursos{
-        order: 1;
-        margin: 0;
+        width: 60%;
     }
 
     .rodape_secao-links{
@@ -77,6 +78,12 @@
     }
 
     .rodape_titulo{
-        font-size: 20px;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Bangers', cursive;
+        font-family: 'PT Serif', serif;
+        font-family: 'Quicksand', sans-serif;
+        color: #fff;
         text-align: center;
     }

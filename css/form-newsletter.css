@@ -1,0 +1,24 @@
+.form-newsletter{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    border: 2px  solid #fff;
+    border-radius: 7px;
+    background-color: #fff;
+}
+
+.form-newsletter_campo{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+    flex-grow: 1;
+}
+
+.form-newsletter_botao{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: var(--cabecalho);
+    border: none;
+    flex-grow: 1;
+}

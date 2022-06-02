@@ -1,6 +1,8 @@
 :root{
-    --cabecalho: #f34789;
-    --fundotendencias: #e6dbd8;
-    --body: #fff;
-    --pesquise: #ff7cac;
+    --cabecalho: #060250;
+    --pesquisa: #2d2979;
+    --fundopesquisa: #2d2979;
+    --fundotendencias: #fff7f5;
+    --body: rgba(255, 255, 255, 0);
+    --sombra: rgba(0,0,0,0.2);
 }
